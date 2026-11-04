@@ -1,0 +1,58 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    background-color: white;
+    justify-self: center;
+}
+
+
+h1 {
+    width: 60%;
+    max-width: 900px;
+    margin: 25px auto 15px;
+    font-size: 32px;
+}
+
+
+th {
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    color: #333;
+}
+
+
+td {
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+}
+
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    accent-color: #198754;
+    cursor: pointer;
+}
+
+
+.edit {
+    background-color: #ffc107;
+    color: #222;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

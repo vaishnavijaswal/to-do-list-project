@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static 'navbar.css' %}">
+</head>
+<body>
+  <nav>
+  <p>To-Do app</p>
+  <a href="{% url 'add_task' %}"><button > Add Task</button> </a>
+  </nav>
+</body>
+</html>
